@@ -86,14 +86,14 @@ WSGI_APPLICATION = 'mern.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-
+# postgres://bsfdflbknpddhx:3cc631c78d6e11569fb2a68c496c5528deec3c9abf6d819f4bbcbf5de00163e9@ec2-34-226-178-146.compute-1.amazonaws.com:5432/d3mm2g8icp7mdl
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'mern',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': '127.0.0.1',
+        'NAME': 'd3mm2g8icp7mdl',
+        'USER': 'bsfdflbknpddhx',
+        'PASSWORD': '3cc631c78d6e11569fb2a68c496c5528deec3c9abf6d819f4bbcbf5de00163e9',
+        'HOST': 'ec2-34-226-178-146.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
