@@ -1,1 +1,1 @@
-web: gunicorn mern.wsgi
+web: gunicorn mern.mern.wsgi
