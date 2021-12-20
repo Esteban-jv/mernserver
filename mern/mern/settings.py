@@ -81,6 +81,14 @@ CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
     'https://mern-djangorest-server.herokuapp.com'
 )
+CORS_ALLOW_HEADERS = (
+        'x-requested-with',
+        'content-type',
+        'accept',
+        'origin',
+        'authorization',
+        'x-csrftoken'
+)
 
 ROOT_URLCONF = 'mern.urls'
 
