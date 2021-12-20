@@ -76,6 +76,11 @@ CORS_ALLOWED_ORIGIN_REGEXES = [
     'http://localhost:3000',
     'https://mern-djangorest-server.herokuapp.com'
 ]
+CORS_ORIGIN_WHITELIST = (
+    'https://vigilant-mayer-e4ed4a.netlify.app',
+    'http://localhost:3000',
+    'https://mern-djangorest-server.herokuapp.com'
+)
 
 ROOT_URLCONF = 'mern.urls'
 
