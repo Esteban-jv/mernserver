@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-^a$^1=&yh==n(k%&v7rka(790^bx=^&s^ei1_3#34zq+s@s#%4
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    '127.0.0.1',
     'localhost',
     'mern-djangorest-server.herokuapp.com'
 ]
@@ -108,10 +109,10 @@ WSGI_APPLICATION = 'mern.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd3mm2g8icp7mdl',
-        'USER': 'bsfdflbknpddhx',
-        'PASSWORD': '3cc631c78d6e11569fb2a68c496c5528deec3c9abf6d819f4bbcbf5de00163e9',
-        'HOST': 'ec2-34-226-178-146.compute-1.amazonaws.com',
+        'NAME': 'mern', #'d3mm2g8icp7mdl',
+        'USER': 'postgres',#'bsfdflbknpddhx',
+        'PASSWORD': 'postgres', #'3cc631c78d6e11569fb2a68c496c5528deec3c9abf6d819f4bbcbf5de00163e9',
+        'HOST': 'localhost', #'ec2-34-226-178-146.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
